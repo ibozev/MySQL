@@ -17,7 +17,6 @@ CREATE TABLE orders (
     CONSTRAINT FOREIGN KEY (waiter_id) REFERENCES waiters(id)
 );
 
-#UNIQUE (name, volume, beer_type), защото може да има две бири с еднакво има и количество, но едната може да е бутилка, а другата кен
 CREATE TABLE drinks (
 	id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
