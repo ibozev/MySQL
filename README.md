@@ -9,4 +9,6 @@ types of joins and aggregate functions, group by, having, cascade
 updates, also views, temporary tables, triggers and procedures
 with inner loops and cursors.
 
-NB: There are also some sample input data. All inputs are in Bulgarian! 
+There are also some sample inputs. In file tasks.sql are 6 testing tasks using the database 
+
+NB: All inputs are in Bulgarian! 
